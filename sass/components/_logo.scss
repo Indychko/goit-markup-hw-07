@@ -1,0 +1,16 @@
+.logo-address {
+    margin-right: 70px;
+}
+.footer-logo {
+    @include font (700, 26, 1.19, 0.03);
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    padding-bottom: 20px;
+    // font-weight: 700;
+    // font-size: 26px;
+    // line-height: 1.19;
+    // letter-spacing: 0.03em;
+    color: var(--color-white);
+
+}

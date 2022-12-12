@@ -1,0 +1,24 @@
+@import './utils/reset';
+@import './utils/mixins';
+
+@import './utils/container';
+@import './utils/variables';
+
+
+@import './modal/backdrop';
+@import './modal/modal';
+@import './modal/checkbox';
+@import './modal/sing-up';
+@import './components/header';
+@import './components/logo';
+@import './components/banner-hero';
+@import './components/benefits';
+@import './components/our-business';
+@import './components/team';
+@import './components/social-icon-list';
+@import './components/regular-customers';
+@import './components/footer';
+@import './components/portfolio';
+@import './components/filters-btn';
+@import './components/modal-button-form';
+@import './components/options-addition';

@@ -1,0 +1,17 @@
+.options-name {
+@include font (700, 18, 2, 0.06);
+    // font-weight: 700;
+    // font-size: 18px;
+    // line-height: 2;
+    // letter-spacing: 0.06em;
+    color: var(--color-main-dark);
+}
+
+.options-addition {
+    @include font (null, 16, 1.88, 0.03);
+    // font-size: 16px;
+    // line-height: 1.88;
+    // letter-spacing: 0.03em;
+    color: var(--color-feature);
+
+}

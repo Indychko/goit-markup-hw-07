@@ -1,0 +1,16 @@
+:root {
+    --color-accent: #2196F3;
+    --color-white: #FFFFFF;
+    --color-main-dark: #212121;
+    --color-dark-black: #2F303A;
+    --color-accent-black: #000000;
+    --color-light-gray: #F5F4FA;
+    --color-feature: #757575;
+    --transition-properties: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-main-dark);
+}

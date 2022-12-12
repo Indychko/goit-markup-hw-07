@@ -1,0 +1,34 @@
+.social-icon-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+
+
+}
+
+.social-icon-link {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color var(--transition-properties);
+    &:hover,
+        &:focus {
+            background-color: var(--color-accent);
+        }
+    
+        &:hover .team-social-icon,
+        &:focus .team-social-icon {
+            fill: var(--color-white);
+        }
+}
+
+.team-social-icon {
+    fill: #AFB1B8;
+    transition: fill var(--transition-properties);
+}

@@ -1,0 +1,73 @@
+ .social-footer-list {
+     display: flex;
+     justify-content: center;
+     column-gap: 10px;
+     margin-top: 20px;
+
+ }
+
+ .social-footer-link {
+     display: block;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(255, 255, 255, 0.1);
+     width: 44px;
+     height: 44px;
+     border-radius: 50%;
+     cursor: pointer;
+     transition: background-color var(--transition-properties);
+    &:hover,
+    &:focus {
+            background-color: var(--color-accent);
+        }
+                 &:hover .team-footer-icon,
+                 &:focus .team-footer-icon {
+                     fill: var(--color-white);
+                 }
+ }
+
+
+ .team-footer-icon {
+     fill: #FFFFFF;
+ }
+ .title-footer {
+    @include font (700, 14, 1.14, 0.03);
+     font-family: 'Roboto';
+     font-style: normal;
+    //  font-weight: 700;
+    //  font-size: 14px;
+    //  line-height: 1.14px;
+    //  letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: var(--color-white);
+
+ }
+
+ .footer-list>li:not(:last-child) {
+     margin-bottom: 9px;
+ }
+ .address-footer {
+     margin-bottom: 9px;
+ }
+ .footer {
+     padding-top: 60px;
+     padding-bottom: 60px;
+     background-color: var(--color-dark-black);
+     color: rgba(255, 255, 255, 0.6);
+
+ }
+
+ .footer-container {
+     display: flex;
+     align-items: baseline;
+ }
+ .address {
+    @include font (400, 14, 1.71, 0.03);
+    //  font-weight: 400;
+     font-style: normal;
+    //  font-size: 14px;
+    //  line-height: 1.71;
+    //  letter-spacing: 0.03em;
+     color: var(--color-white);
+ }

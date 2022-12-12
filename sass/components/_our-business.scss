@@ -1,0 +1,50 @@
+
+   .section-header {
+    @include font (null, 36, 1.17, 0.03);
+       margin-bottom: 50px;
+    //    font-size: 36px;
+    //    line-height: 1.16;
+       text-align: center;
+    //    letter-spacing: 0.03em;
+
+   }.list {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+   .section {
+       padding-bottom: 94px;
+   }
+   .our-business-item {
+       position: relative;
+   }
+   .work-label {
+       position: absolute;
+       width: 100%;
+       height: 70px;
+       left: 0;
+       bottom: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: rgba(47, 48, 58, 0.8);
+   }
+   .work-label-text {
+    @include font (700, 14, 1.14, 0.03);
+    //    font-weight: 700;
+    //    font-size: 14px;
+    //    line-height: 1.14;
+       text-align: center;
+    //    letter-spacing: 0.03em;
+       text-transform: uppercase;
+       color: var(--color-white);
+   }
+   .work-img-img {
+       display: block;
+       max-width: 100%;
+       height: auto;
+       mix-blend-mode: normal;
+   }
